@@ -1,0 +1,225 @@
+A full copyable list is at the bottom or can be found [here](https://valheim.thunderstore.io/package/Meldurson/MountUpRestored/wiki/1369-full-premade-config/)
+
+Deer
+```
+Deer:
+  mountPath: CG/Pelvis/Spine/Spine1
+  stamina: 80
+  saddleTier: 1
+  mountPoint: [-0.444998,-0.257368,0.03999349]
+  saddlePos: [0.04606726,-0.2971615,0.01007945]
+  saddleScale: [1.02,1.155,1]
+  saddleRotation: [1.9,0,0]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Eikthyr
+ ```
+Eikthyr:
+  mountPath: Armature/Root2/Pelvis/Spine/Spine1
+  stamina: 120
+  saddleTier: 2
+  mountPoint: [-0.00015,0.00415,-0.00356]
+  saddlePos: [0,0.000115,-0.00286]
+  saddleScale: [0.9,0.8,0.8]
+  saddleRotation: [282,270,0]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Troll
+ ```
+Troll:
+  mountPath: Armature/Root/Spine0/Spine1/Spine2/LeftShoulder
+  stamina: 120
+  saddleTier: 3
+  mountPoint: [-0.00285,0.00675,0.00488]
+  saddlePos: [0.00125,0.00663,0.00579]
+  saddleScale: [1.17,1.55,1.04]
+  saddleRotation: [1.6,352,86]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Leech
+ ```
+Leech:
+  mountPath: Armature/root/Spine1
+  stamina: 120
+  saddleTier: 2
+  mountPoint: [-0.0006107163,-0.008701043,0.005657894]
+  saddlePos: [-0.0002474895,0.001757804,0.006139348]
+  saddleScale: [0.85,1.25,1]
+  saddleRotation: [87,45,135]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Blob
+ ```
+Blob:
+  mountPath: blob/Armature/Bone/Bone.002
+  stamina: 120
+  saddleTier: 2
+  mountPoint: [-0.00021,0.00542,0.00372]
+  saddlePos: [-0.000125,0.0036,-0.00319]
+  saddleScale: [1.2,1,1]
+  saddleRotation: [340,90,180]
+  flyingStamina: -1
+  customSaddle:
+ ```
+
+ Abomination
+ ```
+Abomination:
+  mountPath: Armature.001/root/hip/spine1
+  stamina: 250
+  saddleTier: 3
+  mountPoint: [-0.00055,0.0135,0.000324]
+  saddlePos: [-0.00107,0.0088,0.00233]
+  saddleScale: [1,1.4,1]
+  saddleRotation: [297,261,106]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Drake
+ ```
+Hatchling:
+  mountPath: Hatchling_mountain/Armature/Root/Spine1
+  stamina: 120
+  saddleTier: 3
+  mountPoint: [0,0.00902,-0.00128]
+  saddlePos: [0,0.0044,0.0014]
+  saddleScale: [0.8,1.3,1]
+  saddleRotation: [296,276,175]
+  flyingStamina: 1
+  customSaddle: 
+ ```
+
+ Ulv
+ ```
+Ulv:
+  mountPath: Ulv/Armature/Root/Hips/Spine/Spine1/Spine2
+  stamina: 150
+  saddleTier: 2
+  mountPoint: [-0.00094,0.00415,-0.0013]
+  saddlePos: [-0.000314,-0.00137,-0.00392]
+  saddleScale: [1.2,1.5,1.2]
+  saddleRotation: [286.7,90,-180]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Stone Golem
+ ```
+StoneGolem:
+  mountPath: Armature/Root/Hip/Spine0/Spine1/Spine2
+  stamina: 200
+  saddleTier: 3
+  mountPoint: [-0.00455,0.0138,0.0025]
+  saddlePos: [-0.00535,0.0142,-0.00336]
+  saddleScale: [1.2,1.4,1.1]
+  saddleRotation: [0,102,-180]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Modor
+ ```
+Dragon:
+  mountPath: Armature/Root/Hips/Spine/Spine1
+  stamina: 300
+  saddleTier: 3
+  mountPoint: [-0.00025,0.00958,-0.00425]
+  saddlePos: [0,0.00685,-0.00445]
+  saddleScale: [1.955,1.925,1.65]
+  saddleRotation: [272,90,180]
+  flyingStamina: 0.6
+  customSaddle: 
+ ```
+
+ Serpent
+ ```
+Serpent:
+  mountPath: Armature/Root/Main/Tail2
+  stamina: 200
+  saddleTier: 3
+  mountPoint: [0.0003,0.0341,0.00894]
+  saddlePos: [0,0.029,0.00904]
+  saddleScale: [1,1,1]
+  saddleRotation: [272,90,0]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+Fuling Berserker
+ ```
+GoblinBrute:
+  mountPath: Armature/Root/Hip2/Hip/Spine1/Spine2/Spine3
+  stamina: 250
+  saddleTier: 3
+  mountPoint: [0.000468,0.0139,0.00363]
+  saddlePos: [-0.00015,0.00724,0.00727]
+  saddleScale: [1.5,1.4,1.5]
+  saddleRotation: [296,270,180]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Growth
+ ```
+BlobTar:
+  mountPath: blob/Armature/Bone/Bone.002
+  stamina: 200
+  saddleTier: 3
+  mountPoint: [-0.00021,0.00542,0.00372]
+  saddlePos: [-0.000125,0.0036,-0.00319]
+  saddleScale: [1.2,1,1]
+  saddleRotation: [340,90,180]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Yagluth
+ ```
+GoblinKing:
+  mountPath: Armature/Root/Root2/Hip/Spine1/Spine2/Spine3/Neck/Bone.007
+  stamina: 500
+  saddleTier: 3
+  mountPoint: [-0.00035,0.0254,0.0064]
+  saddlePos: [0,0.0233,-0.0012]
+  saddleScale: [1.5,1.5,1.5]
+  saddleRotation: [343,90,-180]
+  flyingStamina: -1
+  customSaddle: 
+ ```
+
+ Seeker
+ ```
+Seeker:
+  mountPath: Armature/root/hip/abdomen
+  stamina: 300
+  saddleTier: 3
+  mountPoint: [-0.00028,0.0096,-0.00368]
+  saddlePos: [0,0.001,-0.0051]
+  saddleScale: [1.7,1.6,1.5]
+  saddleRotation: [276,90,180]
+  flyingStamina: 3
+  customSaddle: 
+ ```
+
+ Seeker Soldier
+ ```
+SeekerBrute:
+  mountPath: Armature/root/root2/hip/spine
+  stamina: 400
+  saddleTier: 3
+  mountPoint: [-0.000676,0.0109,-0.00403]
+  saddlePos: [-0.000257,0.0055,-0.00335]
+  saddleScale: [1,1,1]
+  saddleRotation: [281,270,0]
+  flyingStamina: -1
+  customSaddle:
+```
