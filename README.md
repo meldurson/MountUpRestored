@@ -23,7 +23,7 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder.
 * Run the mod to create a config file and YML file
-* Add prefab names to YML file or copy/paste mount configs from *wiki*
+* Add prefab names to YML file or copy/paste mount configs from [the wiki](https://valheim.thunderstore.io/package/Meldurson/MountUpRestored/wiki/1368-premade-configs/)
     * By default only adds mounting to Wolf and Boar
 * Modify the config file *meldurson.MountUpRestored.cfg* in your config folder
 
