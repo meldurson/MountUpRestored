@@ -6,11 +6,8 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 ## Features
 * Added mounting capabilities to any tamed creature
 * Modify where you are sitting on each mountable creature
-* There are multiple tiers of saddles so you can specify which mount requires the more advanced saddles
+* There are multiple tiers of saddles, one for each biome with corresponding visuals to go with it
 * Can specify how much stamina each creature has
-
-### New Features
-*  __Server sync!__
 *  Easier adjustment and saving mounts in game
 *  YML config file for easier and more compact mount configs
 *  Can jump with creatures while riding them
@@ -45,9 +42,24 @@ __If you want to share the configs or see what others have done for configs you 
 * To modify the location of the saddle and where the player sits (as by default it most likely will not be in the correct position) you will have to enable adjustments in the config
 * In the config *meldurson.MountUpRestored.cfg* set __Enable Adjust Custom Mounts = true__
 * Now once you are in the world with adjustments enabled you will need to attach a saddle.
-    * The default saddle tier of a config is tier 3 which is the same as a lox saddle
+    * The default saddle tier of a config is tier 5 (Plains Tier) 
     * You will need to use the correct tier saddle on the creature, and it will then equip the saddle on the creature
-    * The Tiers are __1:__ *Basic Saddle*, __2:__ *Standard Saddle*, __3:__ *Advanced Saddle*
+* The Tiers are __1-8:__ *Each tier corresponds to a biome* (1:Meadows,2:Black Forest,3:Swamp...etc)
+* The saddle tier specifies what visual saddle you want and has an item to go along with it. If you want to overwrite the item that is used you can set the *customSaddle* to a specific tier such as:
+    *   ```
+        Dragon:
+            saddleTier: 4
+            customSaddle: 6
+        ```
+    * This will give Modor a tier 4 (Mountains) visual saddle but require a Tier 6 (Mistlands) saddle to be used as the saddle item
+    * You can also specify another item by prefab name such as:
+    *   ```
+        GoblinBrute:
+            saddleTier: 5
+            customSaddle: SaddleLox
+        ```
+    * This will give Fueling Berserkers a tier 5 (Plains) visual but you will use a standard Lox saddle as the item
+* If you want a more traditional simple saddle you can set the saddle tier to 0 (this will be default add the saddle item to be Tier 5 Saddle)
 * There is a possiblity you cannot see the saddle in its current location, or you can see it but cannot mount it, in this case you can use __Alt+E__ to force mount the saddle *(I reccomend enabling god mode before this as it does not check distance and can cause damage)*
 * Onced mounted can now enter edit mode __(controls at top of screen)__ and move the saddle and mount point and rotate the both saddle and mountpoint
     * It is reccomended to cycle controls to rotate first
@@ -62,6 +74,13 @@ __If you want to share the configs or see what others have done for configs you 
 ## Changelog
 
 <details>
+
+Version 3.3.1
+* Added 9 options for saddle visuals with each in line with a biome
+* Added 8 recipes, for tiers 1-8
+* Added ability to specify custom item to be used to add saddle to creature
+* Set descriptions for each saddle to include all creatures that it can be used to mount
+* Fixed, "PrefabName" showing up in item description
  
 Version 3.3.0
 * Made config YML based and Server Sync
@@ -91,9 +110,10 @@ Version 3.2.11
 
 
 ### Future Plans:
-* Have many more tiers of saddle
-* Have more visual models of saddles
-* Ability to specify custom saddle items (for recipe, not for visual)
+* ~~Have many more tiers of saddle~~
+* ~~Have more visual models of saddles~~
+* ~~Ability to specify custom saddle items (for recipe, not for visual)~~
+* Allow for attacking while mounted
 
 ### Contact:
 The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
