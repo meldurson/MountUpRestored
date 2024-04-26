@@ -14,6 +14,7 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 *  If creature can fly then can takeoff and land and control creature in air
 *  Can specify how much stamina is lost by creature when mounted and flying
 *  If stamina runs out while flying and mounted will be forced to land back on ground and regenerate stamina
+*  __Can now attack when mounted using attack keys!__
 
 
 ## Installation Instructions:
@@ -74,6 +75,11 @@ __If you want to share the configs or see what others have done for configs you 
 ## Changelog
 
 <details>
+
+Version 3.3.2
+* Updated to Valhiem version 0.217.46
+* Added attack while mounted!
+* Added ability to toggle if mounted attack is possible
 
 Version 3.3.1
 * Added 9 options for saddle visuals with each in line with a biome
