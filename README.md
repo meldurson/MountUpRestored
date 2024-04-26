@@ -119,7 +119,8 @@ Version 3.2.11
 * ~~Have many more tiers of saddle~~
 * ~~Have more visual models of saddles~~
 * ~~Ability to specify custom saddle items (for recipe, not for visual)~~
-* Allow for attacking while mounted
+* ~~Allow for attacking while mounted~~
+* Fix fall damage issue
 
 ### Contact:
 The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
