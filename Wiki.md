@@ -223,3 +223,93 @@ SeekerBrute:
   flyingStamina: -1
   customSaddle:
 ```
+ Volture
+```
+Volture:
+  mountPath: Volture/Armature/Root/Hip/spine1/spine2
+  stamina: 240
+  saddleTier: 5
+  mountPoint: [0,0.00224,0.00132]
+  saddlePos: [0,-0.000624,0.00136]
+  saddleScale: [0.7,0.8,0.6]
+  saddleRotation: [273,75,12.5]
+  flyingStamina: 0.5
+  customSaddle: 7
+ ``` 
+Lava Blob
+```
+BlobLava:
+  mountPath: blob/Armature/Bone/Bone.002
+  stamina: 170
+  saddleTier: 7
+  mountPoint: [-0.000952,0.0114,-0.000695]
+  saddlePos: [0.000577,0.00867,-0.00666]
+  saddleScale: [1.5,1.7,1.5]
+  saddleRotation: [330,78,186]
+  flyingStamina: -1
+  customSaddle: 
+```  
+Bonemaw Serpent
+```
+BonemawSerpent:
+  mountPath: Armature/Root/Main/Tail2/Tail1/Head
+  stamina: 300
+  saddleTier: 7
+  mountPoint: [0.00078,0.00923,0.00900]
+  saddlePos: [0.000643,0.00295,0.00849]
+  saddleScale: [1.6,1.4,1.4]
+  saddleRotation: [280,90,0]
+  flyingStamina: -1
+  customSaddle: 
+```  
+Morgen (there are two variants)
+```
+Morgen:
+  mountPath: Armature/Root/Hip/Spine/Chest
+  stamina: 200
+  saddleTier: 7
+  mountPoint: [0,0.00444,-0.00336]
+  saddlePos: [0,0.00153,-0.00348]
+  saddleScale: [0.9,0.8,0.7]
+  saddleRotation: [273,90,-180]
+  flyingStamina: -1
+  customSaddle: 
+ 
+
+Morgen_NonSleeping:
+  mountPath: Armature/Root/Hip/Spine/Chest
+  stamina: 200
+  saddleTier: 7
+  mountPoint: [0,0.00444,-0.00336]
+  saddlePos: [0,0.00153,-0.00348]
+  saddleScale: [0.9,0.8,0.7]
+  saddleRotation: [273,90,-180]
+  flyingStamina: -1
+  customSaddle: 
+```  
+Fallen Valkyrie
+```
+FallenValkyrie:
+  mountPath: FallenValkyrie/Armature/root/hip/spine0/spine1
+  stamina: 300
+  saddleTier: 7
+  mountPoint: [0.000445,0.00113,0.00259]
+  saddlePos: [0.000272,-0.00271,0.00471]
+  saddleScale: [1,1.3,1.4]
+  saddleRotation: [299,270,-180]
+  flyingStamina: 0.1
+  customSaddle: 
+```  
+Fader
+```
+Fader:
+  mountPath: metarig/Root/CoG/hip/spine_1/spine_2/chest
+  stamina: 350
+  saddleTier: 7
+  mountPoint: [0,0.0208,-0.00906]
+  saddlePos: [0,0.014,-0.00908]
+  saddleScale: [1.7,2,1.7]
+  saddleRotation: [273,270,0]
+  flyingStamina: -1
+  customSaddle: 
+```
