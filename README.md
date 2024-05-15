@@ -76,10 +76,14 @@ __If you want to share the configs or see what others have done for configs you 
 
 <details>
 
+Version 3.3.3
+* Updated to Ashlands Valhiem version 0.218.15
+
 Version 3.3.2
 * Updated to Valhiem version 0.217.46
 * Added attack while mounted!
 * Added ability to toggle if mounted attack is possible
+
 
 Version 3.3.1
 * Added 9 options for saddle visuals with each in line with a biome
