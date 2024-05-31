@@ -16,6 +16,27 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 *  If stamina runs out while flying and mounted will be forced to land back on ground and regenerate stamina
 *  __Can now attack when mounted using attack keys!__
 
+### Saddle Recipes:
+
+<details>
+  <summary>Recipes</summary>
+  
+| Tier     | ID | Required Items | Crafting Station |
+| ---- | ----------- | ----------- |----------- |
+| Meadows | SaddleT1  |6 Leather Scraps, 4 Deer Hide, 2 Hard Antler, 10 Dandelion | Workbench lvl 1
+| Black Forest| SaddleT2  |6 Troll Hide, 4 Deer Hide, 4 Bronze, 3 Ancient Seeds | Forge lvl 1
+| Swamp | SaddleT3  |15 Deer Hide, 10 Ancient Bark, 6 Iron, 10 Guck | Forge lvl 2
+| Mountain | SaddleT4  |6 Wolf Pelt, 4 Deer Hide, 2 Obsidian, 5 Silver, 10 Freeze Gland | Workbench lvl 4
+| Plains | SaddleT5  |6 Lox Pelt, 4 Deer Hide, 4 Black Metal, 1 Lox Trophy, 5 Tar | Forge lvl 3
+| Mistlands | SaddleT6  |15 Scale Hide, 6 Obsidian, 6 Yggdrasil Wood, 10 Sap, 3 Eitr | Workbench lvl 5
+| Ashlands | SaddleT7  |10 Lox Pelt, 2 Morgen Heart, 6 Flametal, 5 Tar | Forge lvl 4
+| Deep North| SaddleT8  |20 Wolf Pelt, 10 Scale Hide, 1 Iolite, 50 Freeze Gland  | Artisan Table lvl 2
+
+
+
+</details>
+
+##
 
 ## Installation Instructions:
 
@@ -71,10 +92,18 @@ __If you want to share the configs or see what others have done for configs you 
 
 </details>
 
+##
+
 
 ## Changelog
 
 <details>
+
+Version 3.3.4
+* Added patch to make sure recipes with more than 4 ingredients cycle pages
+* Added shared content with AllTameable so patches only run once
+* Made custom saddles modify the correct saddle tier descriptions
+* Modified later stage recipes
 
 Version 3.3.3
 * Updated to Ashlands Valhiem version 0.218.15
