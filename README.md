@@ -99,6 +99,11 @@ __If you want to share the configs or see what others have done for configs you 
 
 <details>
 
+Version 3.3.5
+
+* Fixed issue with saddles not working without AllTameable
+* Added option to not have tames drown if run out of stamina in the water
+
 Version 3.3.4
 * Added patch to make sure recipes with more than 4 ingredients cycle pages
 * Added shared content with AllTameable so patches only run once
