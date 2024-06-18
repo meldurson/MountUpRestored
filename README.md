@@ -1,4 +1,5 @@
 
+
 ![Banner](https://raw.githubusercontent.com/meldurson/MountUpRestored/main/Pics/Banner.png)
 ##  
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
@@ -98,6 +99,13 @@ __If you want to share the configs or see what others have done for configs you 
 ## Changelog
 
 <details>
+
+Version 3.3.6
+
+* Added compatibility with RRR and WackyDB
+* Fixed creatures drowning once you get off with 0 stamina
+* Removed console spam when recipe has more than 4 requirements
+* Added flight compatibility with other mods that allow jumping
 
 Version 3.3.5
 
