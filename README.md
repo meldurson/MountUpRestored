@@ -4,6 +4,14 @@
 ##  
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
+### Latest Update
+    Version 3.3.7
+      * Added config option to not have block key to perform secondary attack
+	  * Added config to increase stamina regen multiplier for fed mounts
+	  * Added config option to override Lox and Asksvin stamina
+	  * Added better clearing of saddles when switching servers
+	
+
 ## Features
 * Added mounting capabilities to any tamed creature
 * Modify where you are sitting on each mountable creature
@@ -99,6 +107,12 @@ __If you want to share the configs or see what others have done for configs you 
 ## Changelog
 
 <details>
+
+Version 3.3.7
+* Added config option to not have block key to perform secondary attack
+* Added config to increase stamina regen multiplier for fed mounts
+* Added config option to override Lox and Asksvin stamina
+* Added better clearing of saddles when switching servers
 
 Version 3.3.6
 
