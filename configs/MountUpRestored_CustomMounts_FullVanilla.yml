@@ -9,7 +9,7 @@ PrefabName:
 Deer:
   mountPath: CG/Pelvis/Spine/Spine1
   stamina: 80
-  saddleTier: 1
+  saddleTier: 2
   mountPoint: [-0.444998,-0.257368,0.03999349]
   saddlePos: [0.04606726,-0.2971615,0.01007945]
   saddleScale: [1.02,1.155,1]
@@ -28,6 +28,7 @@ Eikthyr:
   saddleRotation: [282,270,0]
   flyingStamina: -1
   customSaddle: SaddleT3
+  customAttackOrder: 0,2
   
 
 Troll:
@@ -40,6 +41,7 @@ Troll:
   saddleRotation: [1.6,352,86]
   flyingStamina: -1
   customSaddle: 4
+  customAttackOrder: 0,1
   
 
 Leech:
@@ -76,6 +78,7 @@ Abomination:
   saddleRotation: [297,261,106]
   flyingStamina: -1
   customSaddle: 5
+  customAttackOrder: 0,2
   
 
 Hatchling:
@@ -100,6 +103,7 @@ Ulv:
   saddleRotation: [286.7,90,-180]
   flyingStamina: -1
   customSaddle: SaddleT4
+  customAttackOrder: 0,1
   
 
 StoneGolem:
@@ -112,6 +116,7 @@ StoneGolem:
   saddleRotation: [0,102,-180]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 1,2
   
 
 Dragon:
@@ -124,6 +129,7 @@ Dragon:
   saddleRotation: [272,90,180]
   flyingStamina: 0.6
   customSaddle: 6
+  customAttackOrder: 2,5,4,4
   
 
 Serpent:
@@ -136,6 +142,7 @@ Serpent:
   saddleRotation: [272,90,0]
   flyingStamina: -1
   customSaddle: 5
+  customAttackOrder: 0,1
   
 
 GoblinBrute:
@@ -148,7 +155,7 @@ GoblinBrute:
   saddleRotation: [296,270,180]
   flyingStamina: -1
   customSaddle: 
-  
+  customAttackOrder: 0,1
 
 BlobTar:
   mountPath: blob/Armature/Bone/Bone.002
@@ -171,6 +178,7 @@ GoblinKing:
   saddleRotation: [343,90,-180]
   flyingStamina: -1
   customSaddle: 7
+  customAttackOrder: 2,1
   
 
 Seeker:
@@ -183,6 +191,7 @@ Seeker:
   saddleRotation: [276,90,180]
   flyingStamina: 3
   customSaddle: 
+  customAttackOrder: 2,5,6,6
   
 
 SeekerBrute:
@@ -195,6 +204,7 @@ SeekerBrute:
   saddleRotation: [281,270,0]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 2,3
 
 
 Volture:
@@ -231,6 +241,7 @@ BonemawSerpent:
   saddleRotation: [280,90,0]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 2,0
   
 
 Morgen:
@@ -243,6 +254,7 @@ Morgen:
   saddleRotation: [273,90,-180]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 4,2
   
 
 Morgen_NonSleeping:
@@ -255,6 +267,7 @@ Morgen_NonSleeping:
   saddleRotation: [273,90,-180]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 3,1
   
 
 FallenValkyrie:
@@ -267,6 +280,7 @@ FallenValkyrie:
   saddleRotation: [299,270,-180]
   flyingStamina: 0.1
   customSaddle: 
+  customAttackOrder: 1,2,1,2
   
 
 Fader:
@@ -279,5 +293,6 @@ Fader:
   saddleRotation: [273,270,0]
   flyingStamina: -1
   customSaddle: 
+  customAttackOrder: 4,5
   
 
