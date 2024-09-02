@@ -5,10 +5,8 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.3.8
-    * Unused saddle recipes disabled
-    * Config option added to change saddle names
-    * Removed some console spam
+    Version 3.3.9
+    * Can now manually set which attacks you want to use as your primary and secondary
 	
 
 ## Features
@@ -23,6 +21,10 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 *  Can specify how much stamina is lost by creature when mounted and flying
 *  If stamina runs out while flying and mounted will be forced to land back on ground and regenerate stamina
 *  __Can now attack when mounted using attack keys!__
+    *  If you want to set the attacks manually in the config they are integers in the format of:
+    * ```customAttackOrder:primaryGround,secondaryGround,primaryFlying,secondaryFlying```
+* An example from the MountList is for Modor
+    * ```customAttackOrder: 2,5,4,4``` which is swipe and cold breath when on the ground, and when flying both attacks are the ice shard breath
 
 ### Saddle Recipes:
 
@@ -107,6 +109,9 @@ __If you want to share the configs or see what others have done for configs you 
 
 <details>
 
+Version 3.3.9
+* Can now manually set which attacks you want to use as your primary and secondary
+    
 Version 3.3.8
 * Unused saddle recipes disabled
 * Config option added to change saddle names
