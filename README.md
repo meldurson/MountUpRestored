@@ -5,8 +5,9 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.3.10
-	* Fixed continuous error when trying to add mounting to AnimalAI 
+    Version 3.3.11
+	* Fixed compatibility with Portable pals not being able to mount after release
+	* Fixed taking fall damage when mounting tall creatures
 	
 
 ## Features
@@ -109,6 +110,10 @@ __If you want to share the configs or see what others have done for configs you 
 
 <details>
 
+Version 3.3.11
+* Fixed compatibility with Portable pals not being able to mount after release
+* Fixed taking fall damage when mounting tall creatures
+
 Version 3.3.10
 * Fixed continuous error when trying to add mounting to AnimalAI 
 
@@ -183,7 +188,7 @@ Version 3.2.11
     * If using All Tameable with DNA traits enabled, either disable traits for adjusting mounts or find a 0 star creature that is close to 100% scale
 * Hatchlings are not meant to land in vanilla so if you do land a hatchling the animation is a little off
 * When flying there is some visual jittering of the creature
-* When attempting to mount a saddle far above your head, you might take fall damage
+* ~~When attempting to mount a saddle far above your head, you might take fall damage~~
 * If a creature is too big it will just slide and not be able to run
 
 
@@ -192,7 +197,7 @@ Version 3.2.11
 * ~~Have more visual models of saddles~~
 * ~~Ability to specify custom saddle items (for recipe, not for visual)~~
 * ~~Allow for attacking while mounted~~
-* Fix fall damage issue
+* ~~Fix fall damage issue~~
 
 ### Contact:
 The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
