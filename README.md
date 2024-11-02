@@ -5,10 +5,8 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.3.12
-    * Updated to Bog Witch
-    * Fixed issue with Saddle Position in multiplayer after Portable Pals
-    * Removed ability to modify mount when on a servers
+    Version 3.3.13
+    * Fixed crafting bug
 	
 
 ## Features
@@ -110,6 +108,9 @@ __If you want to share the configs or see what others have done for configs you 
 ## Changelog
 
 <details>
+
+Version 3.3.13
+* Fixed crafting bug
 
 Version 3.3.12
 * Updated to Bog Witch
