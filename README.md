@@ -5,8 +5,8 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.4.1
-    * Added compatibility with BetterRiding
+    Version 3.4.2
+    * Implemented stricter network version allowance
 	
 
 ## Features
@@ -99,102 +99,6 @@ __If you want to share the configs or see what others have done for configs you 
 * Currently you cannot change the scale of the saddle when editing in game, you have to edit the scale in the YML
 * To reload the YML file, logout and log in
 * Due to scaling issues, you may need to reload and adjust the forward/back once or twice for it to scale correctly with different levels of creatures
-
-</details>
-
-##
-
-
-## Changelog
-
-<details>
-
-Version 3.4.1
-* Added compatibility with BetterRiding
-
-Version 3.4.0
-* Added riding smoothing to greatly reduce stuttering why riding
-* Improved multiplayer sync
-* Added Localization
-* Removed legacy mount up config support to improve performance
-* Modified default configs and recipes
-
-Version 3.3.13
-* Fixed crafting bug
-
-Version 3.3.12
-* Updated to Bog Witch
-* Fixed issue with Saddle Position in multiplayer after Portable Pals
-* Removed ability to modify mount when on a servers
-
-Version 3.3.11
-* Fixed compatibility with Portable pals not being able to mount after release
-* Fixed taking fall damage when mounting tall creatures
-
-Version 3.3.10
-* Fixed continuous error when trying to add mounting to AnimalAI 
-
-Version 3.3.9
-* Can now manually set which attacks you want to use as your primary and secondary
-    
-Version 3.3.8
-* Unused saddle recipes disabled
-* Config option added to change saddle names
-* Removed some console spam
-
-Version 3.3.7
-* Added config option to not have block key to perform secondary attack
-* Added config to increase stamina regen multiplier for fed mounts
-* Added config option to override Lox and Asksvin stamina
-* Added better clearing of saddles when switching servers
-
-Version 3.3.6
-
-* Added compatibility with RRR and WackyDB
-* Fixed creatures drowning once you get off with 0 stamina
-* Removed console spam when recipe has more than 4 requirements
-* Added flight compatibility with other mods that allow jumping
-
-Version 3.3.5
-
-* Fixed issue with saddles not working without AllTameable
-* Added option to not have tames drown if run out of stamina in the water
-
-Version 3.3.4
-* Added patch to make sure recipes with more than 4 ingredients cycle pages
-* Added shared content with AllTameable so patches only run once
-* Made custom saddles modify the correct saddle tier descriptions
-* Modified later stage recipes
-
-Version 3.3.3
-* Updated to Ashlands Valhiem version 0.218.15
-
-Version 3.3.2
-* Updated to Valhiem version 0.217.46
-* Added attack while mounted!
-* Added ability to toggle if mounted attack is possible
-
-
-Version 3.3.1
-* Added 9 options for saddle visuals with each in line with a biome
-* Added 8 recipes, for tiers 1-8
-* Added ability to specify custom item to be used to add saddle to creature
-* Set descriptions for each saddle to include all creatures that it can be used to mount
-* Fixed, "PrefabName" showing up in item description
- 
-Version 3.3.0
-* Made config YML based and Server Sync
-* Made all existing configs automatically convert into YML format
-* Made flying up/down less intense on smaller flying creatures
-* Added UI for controls for editing the mounting position
-* Added ability to rotate while editing in game
-* Reduced logs related to "Setting Saddle"
-* Can no longer accidentally move saddle and mount point too far away
-* Some slightly larger creatures no longer slide in place
-
-Version 3.2.11
-* Fixed errors due to Valheim updates
-* Added flying and jumping
 
 </details>
 
