@@ -5,8 +5,11 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.4.2
-    * Implemented stricter network version allowance
+    Version 3.4.3
+	* Fixed Localization
+	* Removed RRR Compatibility
+	* Fixed error with attacking with creatures that only have one attack
+	* Updated YAMLDotNet
 	
 
 ## Features
