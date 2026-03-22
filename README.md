@@ -5,11 +5,10 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.4.3
-	* Fixed Localization
-	* Removed RRR Compatibility
-	* Fixed error with attacking with creatures that only have one attack
-	* Updated YAMLDotNet
+    Version 3.4.4
+	* Added in game scale adjustment
+	* Fixed issue with saving mount at end of MountList file.
+	* Changed format of output in bepinex to be copy/pasted
 	
 
 ## Features
