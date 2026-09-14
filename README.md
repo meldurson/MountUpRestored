@@ -5,14 +5,14 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.4.4
-	* Added in game scale adjustment
-	* Fixed issue with saving mount at end of MountList file.
-	* Changed format of output in bepinex to be copy/pasted
+    Version 3.4.5
+	* Updated to Valheim 1.0
 	
 
 ## Features
 * Added mounting capabilities to any tamed creature
+  * If you need to add taming to more creatures, check out  [ Let Me Tame You](https://thunderstore.io/c/valheim/p/Meldurson/LetMeTameYou/) 
+* Adds the ability to tame almost any creature.
 * Modify where you are sitting on each mountable creature
 * There are multiple tiers of saddles, one for each biome with corresponding visuals to go with it
 * Can specify how much stamina each creature has
@@ -122,5 +122,9 @@ __If you want to share the configs or see what others have done for configs you 
 * ~~Allow for attacking while mounted~~
 * ~~Fix fall damage issue~~
 
-### Contact:
-The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
+## ❓Contact:
+The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/X3thsRXAJD) under @Meldurson. or dm me on Discord.
+
+If you want to support me you can do so through my Ko-fi account:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
