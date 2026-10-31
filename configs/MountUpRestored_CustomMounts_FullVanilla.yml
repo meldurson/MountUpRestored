@@ -28,7 +28,7 @@ Eikthyr:
   saddleScale: [0.9,0.8,0.8]
   saddleRotation: [282,270,0]
   flyingStamina: -1
-  customSaddle: SaddleT3
+  customSaddle: SaddleT2
   customAttackOrder: 0,2
   
 
@@ -41,7 +41,7 @@ Troll:
   saddleScale: [1.17,1.55,1.04]
   saddleRotation: [1.6,352,86]
   flyingStamina: -1
-  customSaddle: 4
+  customSaddle: 
   customAttackOrder: 0,1
   
 
@@ -54,7 +54,7 @@ Bjorn:
   saddleScale: [1.4,1.2,1]
   saddleRotation: [286.8481,90.00001,0]
   flyingStamina: -1
-  customSaddle: 3
+  customSaddle: 
   customAttackOrder: 0,2
   
 
