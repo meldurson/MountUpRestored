@@ -5,8 +5,10 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.4.5
-	* Updated to Valheim 1.0
+    Version 3.5.1
+	* Added debug to config
+	* Added better compatibility with LMTY
+	* removed compatibility with AllTameable as is depreciated
 	
 
 ## Features
@@ -31,12 +33,12 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 ### Saddle Recipes:
 
 <details>
-  <summary>Recipes</summary>
+  <summary>Default Recipes</summary>
   
 | Tier     | ID | Required Items | Crafting Station |
 | ---- | ----------- | ----------- |----------- |
 | Meadows | SaddleT1  |6 Leather Scraps, 4 Deer Hide, 2 Hard Antler, 10 Dandelion | Workbench lvl 1
-| Black Forest| SaddleT2  |6 Troll Hide, 4 Deer Hide, 4 Bronze, 3 Ancient Seeds | Forge lvl 1
+| Black Forest| SaddleT2  |10 Troll Hide, 10 Bear Hide, 10 Bronze, 3 Ancient Seeds | Forge lvl 3
 | Swamp | SaddleT3  |15 Deer Hide, 10 Ancient Bark, 6 Iron, 10 Guck | Forge lvl 2
 | Mountain | SaddleT4  |6 Wolf Pelt, 4 Deer Hide, 2 Obsidian, 5 Silver, 10 Freeze Gland | Workbench lvl 4
 | Plains | SaddleT5  |6 Lox Pelt, 4 Deer Hide, 4 Black Metal, 1 Lox Trophy, 5 Tar | Forge lvl 3
@@ -55,7 +57,7 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder.
 * Run the mod to create a config file and YML file
 * Add prefab names to YML file or copy/paste mount configs from [the wiki](https://valheim.thunderstore.io/package/Meldurson/MountUpRestored/wiki/1368-premade-configs/)
-    * By default only adds mounting to Wolf and Boar
+    * __By default only adds mounting to Wolf and Boar__
 * Modify the config file *meldurson.MountUpRestored.cfg* in your config folder
 
 __If you want to share the configs or see what others have done for configs you can go [here](https://github.com/meldurson/MountUpRestored/discussions/1)__
