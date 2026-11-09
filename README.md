@@ -5,12 +5,11 @@
 This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
 ### Latest Update
-    Version 3.5.1
-	* Added debug to config
-	* Added better compatibility with LMTY
-	* removed compatibility with AllTameable as is depreciated
+    Version 3.6.0
+    * Added compatibility to OdinMountedCombat
+    * Added configs for OdinMountedCombat to wiki
+    * Slightly adjusted default configs for some creatures
 	
-
 ## Features
 * Added mounting capabilities to any tamed creature
   * If you need to add taming to more creatures, check out  [ Let Me Tame You](https://thunderstore.io/c/valheim/p/Meldurson/LetMeTameYou/) 
@@ -24,6 +23,8 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
 *  If creature can fly then can takeoff and land and control creature in air
 *  Can specify how much stamina is lost by creature when mounted and flying
 *  If stamina runs out while flying and mounted will be forced to land back on ground and regenerate stamina
+*  __Compatibility with [OdinMountedCombat](https://thunderstore.io/c/valheim/p/OdinPlus/OdinMountedCombat/)__
+    * Configs for vanilla creatures in __[wiki](https://thunderstore.io/c/valheim/p/Meldurson/MountUpRestored/wiki/6759-odin-mounted-combat-configs)__
 *  __Can now attack when mounted using attack keys!__
     *  If you want to set the attacks manually in the config they are integers in the format of:
     * ```customAttackOrder:primaryGround,secondaryGround,primaryFlying,secondaryFlying```
